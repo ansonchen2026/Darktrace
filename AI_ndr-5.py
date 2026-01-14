@@ -5,7 +5,6 @@ import re
 import streamlit as st
 import pandas as pd
 import json
-from plotly
 from pypdf import PdfReader
 from io import StringIO
 
@@ -131,3 +130,4 @@ if uploaded_file:
 else:
 
     st.warning("👈 請在上傳區提供 Darktrace 報告文件 (PDF/JSON/CSV) 以產出分析。")
+
