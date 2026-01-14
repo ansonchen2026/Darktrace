@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import plotly.express as px # 建議安裝：pip install plotly (用於更美觀的互動式圖表)
+#-- import plotly.express as px # 建議安裝：pip install plotly (用於更美觀的互動式圖表)
 import re
 import streamlit as st
 import pandas as pd
@@ -130,4 +130,5 @@ if uploaded_file:
 else:
 
     st.warning("👈 請在上傳區提供 Darktrace 報告文件 (PDF/JSON/CSV) 以產出分析。")
+
 
